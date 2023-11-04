@@ -4,25 +4,25 @@ This project allows to scrape the chat of Twitch VOD and save the result in JSON
 ## Example output
 ```json
 [
-	{
-		"time": 13,
-		"badges": [
-			"https://static-cdn.jtvnw.net/badges/v1/3267646d-33f0-4b17-b3df-f923a41db1d0/1",
-			"https://static-cdn.jtvnw.net/badges/v1/3158e758-3cb4-43c5-94b3-7639810451c5/1"
-		],
-		"username": "Vanidor",
-		"color": "#FFAFC7",
-		"contents": [
-			{
-				"type": "text",
-				"content": ":3"
-			},
-			{
-				"type": "image",
-				"content": "https://static-cdn.jtvnw.net/emoticons/v2/emotesv2_61bc9ef578ee473faa5e3d4533f4aff4/default/dark/1.0"
+    {
+        "time": 13,
+        "badges": [
+            "https://static-cdn.jtvnw.net/badges/v1/3267646d-33f0-4b17-b3df-f923a41db1d0/1",
+            "https://static-cdn.jtvnw.net/badges/v1/3158e758-3cb4-43c5-94b3-7639810451c5/1"
+        ],
+        "username": "Vanidor",
+        "color": "#FFAFC7",
+        "contents": [
+            {
+                "type": "text",
+                "content": ":3"
+            },
+            {
+                "type": "image",
+                "content": "https://static-cdn.jtvnw.net/emoticons/v2/emotesv2_61bc9ef578ee473faa5e3d4533f4aff4/default/dark/1.0"
             }
-		]
-	}
+        ]
+    }
 ]
 ```
 
